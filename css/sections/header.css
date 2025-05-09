@@ -38,7 +38,6 @@
   flex: 1.236;
   gap: 64px;
   list-style: none;
-  /* FIXED DISCONNECTION BETWEEN HEADER (NAV) AND HERO WITH MARGIN-RIGHT */
   margin-right: 41px;
 }
 
@@ -50,11 +49,9 @@
   text-transform: uppercase;
   line-height: 20px;
   cursor: pointer;
-  /* OPTIONAL: TRANSITION */
   transition: letter-spacing linear 0.2s;
 }
 
-/* OPTIONAL */
 .header__menu li:hover {
   letter-spacing: 2px;
 }
